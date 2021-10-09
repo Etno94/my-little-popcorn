@@ -184,3 +184,7 @@ p.descrip {
     padding: 0 32px 0 32px;
     margin-bottom: 12px;
 }
+
+.center-text{
+  text-align: center !important;
+}
