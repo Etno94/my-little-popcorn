@@ -19,6 +19,7 @@ Vue.component('card', {
         </div>
       </div>
     </div>`,
+    // 
   mounted() {
     this.width = this.$refs.card.offsetWidth;
     this.height = this.$refs.card.offsetHeight;
@@ -64,10 +65,11 @@ Vue.component('card', {
         backgroundImage: `url(${this.dataImage})` };
 
     },
-    cardBgArden() {
-      return {
-        backgroundImage: `url('files/arden.jpg')` };
-    } },
+    // cardBgArden() {
+    //   return {
+    //     backgroundImage: `url('files/arden.jpg')` };
+    // } 
+  },
 
   methods: {
     handleMouseMove(e) {

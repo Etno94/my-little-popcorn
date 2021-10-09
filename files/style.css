@@ -3,21 +3,25 @@ body {
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 500;
-  background-color: #BCAAA4;
-  background-image: url('icc.png');
+  background-color: #ffffffa6;
+  background-image: url('black-bg.jpg');
   background-size: initial;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   -webkit-font-smoothing: antialiased;
+}
+
+.mb-24 {
+  margin-bottom: 24px !important;
 }
 
 .title {
   font-family: "Raleway";
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 700;
-  color: #5D4037;
+  color: #ffffffa6;
   text-align: center;
 }
 
@@ -46,6 +50,22 @@ h1 + p, p + p {
 
 .maldraxxus div.arden {
   background-image: url('maldraxxus.jpg');
+}
+
+.ardenweald div.arden {
+  background-image: url('arden.jpg');
+}
+
+.bastion div.arden {
+  background-image: url('bastion.jpg');
+}
+
+.quelthalas div.arden {
+  background-image: url('quelthalas.jpg');
+}
+
+.pandaria div.arden {
+  background-image: url('pandaria.jpg');
 }
 
 .card-wrap {
@@ -150,8 +170,17 @@ h1 + p, p + p {
 }
 
 .card-info h1 {
-  font-family: "Playfair Display";
+  font-family: inherit; 
+  /* "Playfair Display"; */
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+p.descrip {
+  color: #ffffffa6;
+    text-align: left;
+    font-weight: 700;
+    padding: 0 32px 0 32px;
+    margin-bottom: 12px;
 }
